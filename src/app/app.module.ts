@@ -6,12 +6,14 @@ import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
 import { ListProductComponent } from './list-product/list-product.component';
 import {FormsModule} from "@angular/forms";
+import { LisUserComponent } from './lis-user/lis-user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HeaderComponent,
-    ListProductComponent
+    ListProductComponent,
+    LisUserComponent
   ],
   imports: [
     BrowserModule,
